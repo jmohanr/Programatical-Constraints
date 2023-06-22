@@ -121,13 +121,4 @@ extension UIView {
     }
 }
 
-extension UILabel {
-    public func labeUI(lines: Int = 0,alignMent: NSTextAlignment = .left, textColor: UIColor = .black,bgColor: UIColor = .blue, font: UIFont = UIFont.systemFont(ofSize: 40, weight: .bold)) {
-        self.textColor = textColor
-        self.textAlignment = alignMent
-        self.numberOfLines = lines
-        self.backgroundColor = bgColor
-        self.font = font
-    }
-    
-}
+
