@@ -25,7 +25,7 @@ final class SecondVC: UIViewController {
         Kotlin helped Zomato reduce the number of lines of code in their app significantly, and it has also helped them find important defects in their app at compile time.
         """
         label.labeUI(lines: 0,alignMent: .center,textColor: .white,bgColor: .clear,
-                     font: UIFont.systemFont(ofSize: 25))
+                     font: UIFont.systemFont(ofSize: 15))
         return label
     }()
     
